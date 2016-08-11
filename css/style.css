@@ -1,3 +1,10 @@
 body {
     text-align: center;
+    background: #d4efdf;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

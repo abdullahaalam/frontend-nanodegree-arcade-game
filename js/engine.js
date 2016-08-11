@@ -80,7 +80,7 @@ var Engine = (function(global) {
      */
     function update(dt) {
         updateEntities(dt);
-        // checkCollisions();
+        //checkCollisions();
     }
 
     /* This is called by the update function and loops through all of the
@@ -137,6 +137,10 @@ var Engine = (function(global) {
         }
 
         renderEntities();
+        // Score
+        ctx.font="20px Impact";
+        ctx.fillStyle = "#fff";
+        ctx.fillText("Score : " + player.score, 420, 575);
     }
 
     /* This function is called by the render function and is called on each game
