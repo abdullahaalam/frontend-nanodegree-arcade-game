@@ -1,24 +1,24 @@
 # Classic Arcade Game Clone
-## Game Functions
-Error Free - The game functions correctly and runs error free
-* Player can not move off screen
-* Vehicles cross the screen
-* Vehicle-player collision resets the game
-* Something happens when player wins
+## Project Overview
+I will be provided with visual assets and a game loop engine; using these tools I must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
 
-## Object-Oriented Code
-Object Oriented Code - Game objects (player and vehicles) are implemented using JavaScript object-oriented programming features.
+## Installation and Running the Game
+Clone the GitHub repository and open index.html
+```sh
+$ git clone https://github.com/abdullahaalam/frontend-nanodegree-arcade-game.git
+```
 
-## Documentation
-README - A README file is included detailing all steps required to successfully run the application.
+## How to Start
+* Play it here! [Classic Arcade Game Clone](https://abdullahaalam.github.io/frontend-nanodegree-arcade-game/)
 
-Comments - Comments are present and effectively explain longer code procedures. As a rule of thumb: describe what all custom functions and object methods do.
+## How to Play
+* The goal of the player is to reach the water, without colliding into any one of the enemies.
+* Use the arrow keys or the "WASD" keys on your keyboard to move the character (up, left, down, right).
+* The enemies move in varying speeds on the paved block portion of the scene.
+* Once a the player collides with an enemy, the game is reset and the player moves back to the start square.
+* Once the player reaches the water the game is won.
 
-Code Quality - Code is formatted with consistent, logical, and easy-to-read formatting as described in the [Udacity JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html).
-
-## Suggestions to Make Your Project Stand Out!
-Provide additional functionality to the game beyond minimum requirements, for example:
-* Add collectible items on screen
-* Multiple vehicle types
-* Timed games
-* Be creative!
+## Resources
+* [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015)
+* [HTML5 Canvas](https://www.udacity.com/course/html5-canvas--ud292)
+* [Writing READMEs](https://www.udacity.com/course/writing-readmes--ud777)
